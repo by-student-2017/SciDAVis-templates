@@ -1,0 +1,48 @@
+SciDAVis 1.22.0 template file
+<multiLayer>	1	1
+geometry	9	5	838	626	active
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	736	474
+Alignement	0	0
+<graph>
+ggeometry	5	5	814	559
+PlotTitle	UPS He1 (21.2 eV)	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Binding Energy / eV	Intensity / arb. units		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+TitleFont	Times New Roman	18	50	0	0	0
+ScaleFont0	Times New Roman	18	50	0	0	0
+ScaleFont1	MS UI Gothic	14	75	0	0	0
+ScaleFont2	Times New Roman	18	50	0	0	0
+ScaleFont3	MS UI Gothic	14	75	0	0	0
+AxisFont0	Times New Roman	18	50	0	0	0
+AxisFont1	MS UI Gothic	14	50	0	0	0
+AxisFont2	Times New Roman	18	50	0	0	0
+AxisFont3	MS UI Gothic	14	50	0	0	0
+EnabledTickLabels	1	0	1	0	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+scale	0	0	250	0	6	5	0	0
+scale	1	0	250	0	8	5	0	0
+scale	2	-1	7	1	9	4	0	1
+scale	3	-1	7	1	8	5	0	1
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3	
+MinorTicks	3	3	3	3	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	6.81344307270233	240.899357601713	MS UI Gothic	14	50	0	0	0	#000000	0	0	#ffffff	0	</legend>
+</graph>
+</multiLayer>
