@@ -16,6 +16,6 @@ XPS_and_UPSフォルダ：光電子分光用のテンプレート。学会用（
 ただし、数値が線を超えると「,」が入るので注意。このような記述での投稿の経験はないので、
 何かしらの対策が必要になるかもしれない。
 
-abinitio-calculationフォルダ：第一原理計算（例えば、WIEN2kやVASP, DVXaなど）用のテンプレート。
+Abinitio-calculationフォルダ：第一原理計算（例えば、WIEN2kやVASP, DVXaなど）用のテンプレート。
 学会用（Arial）と論文用(TNR）が用意してある。
 WIEN2kやVASPなどのバンド計算であれば単位はunitcellを、DVXaではatomの記述があるものを用いてください。
