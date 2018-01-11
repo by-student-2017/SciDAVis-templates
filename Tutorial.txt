@@ -1,0 +1,80 @@
+□ SciDAVis: http://scidavis.sourceforge.net/ (Linux, Mac, Win OK)
+　SciDAVis (Win) (https://sourceforge.net/projects/scidavis/files/SciDAVis/)
+　Originに似たグラフ作成ソフト。SciGraphicaはLinux版
+
+・ダウンロードとインストール
+1. 数値の大きなものを選択
+2. scidavis.1.22-win-dist.msi をダウンロード
+3. scidavis.1.22-win-dist.msi をクリック
+　Next > I accept ...にチェックを入れる > Next > Next > Install
+
+・基本的な使い方
+a) CVS形式等のテキスト読み込み
+　File > Import ASCII
+   ショートカット：Ctrl + K
+b) 関数からの描写
+　File > New > New Function Plot > Add Function curve
+   > cos(x) + sin(x/4+1) などと入力し、From x, To x にxの範囲、Points にxの点数を入力する。
+c) 関数から3次元画像の描写 
+　File > New > New 3D Surface Plot > Define surface plot
+　> 計算したい関数を入力し、X, Y, Zの変域を指定する
+d) Matrix からの描写
+　File > New > New Matrix
+　行列の大きさは Matrix - Dimention で変更可能
+　Matrix - Set coordinate でX, Y座標を指定し、Zの値はMatrix - Assign function に関数を入力する
+e) マルチレイヤーグラフ
+　Plot > Panel から 2層および4層のマルチレイヤーグラフを作成することができる
+
+・グラフ設定の保存
+1) グラフを表示させる
+2) グラフの縦軸をクリックして論文用に体裁を整える
+　Scale:
+　「BottomとTop」の範囲などの設定（FromやTo, Major Ticksなど）を一致させる
+　「LeftとRight」の範囲などの設定（FromやTo, Major Ticksなど）を一致させる
+　Axis：BottomからRightまでの全てにShowのチェックを入れる
+　　Font：学会発表ではArial, 論文ではTimes New Romanが多い（一般的に使われる）。
+　　Major Ticks：全てIn
+　　Minor Ticks：全てIn
+　General：Canvas frame のチェックを外す
+3) File > save as template... でグラフの設定を保存する
+　例えば、XPSならint_vs_ene.qpt やxps.qptなどとすると良い。
+
+・グラフ設定の読み出し
+1) File > Open template... で保存したグラフの設定を読み出す
+2) グラフ > add/Remove Curve...
+3) Tableのデータを選択 > →をクリック > OK で描写される 
+
+・設定
+1) 編集 > 設定... >
+2) Application >  Main Font > Arial
+3) 2D Plots >
+　Ticks: Major と Minor Ticksを両方ともIn
+　Fonts: Title から Axes Numbers まで Arial
+
+・複製
+　グラフの外枠を右クリック > Duplicate をクリック
+
+・パワーポインタに図を貼り付けるための書き出し
+　簡易：グラフを右クリック > copy をクリック > layer > パワーポインタに (Ctrl + V)
+　学会：グラフを右クリック > Export をクリック > layer > jpgやtiffなどを選択 > パワーポインタで図を読み出す
+　図のサイズ変更：図の上の部分を右クリック > Arrange layers... > Layer Canvas Size
+　　4枚並べる場合：Width 338 から 368 pixels, Height 224 pixels
+　　2枚を横に並べる場合：Width 368 pixels, Height 474 pixels
+　　1枚を見せるとき：Width 736 pixels, Height 474 pixels
+　※ 線をクリック > Symbol > Style (Ellipse) > Size 5 > Apply > OK
+
+・x軸のデータが式の形式でしかない場合
+　Formulaにて 10.0000 -0.0250*(i-1) などと入力してApplyをクリック。iはRow numberを意味する。
+　jも何かに対応しているらしい。
+
+・行列の大きさの変更
+　Table > Dimentions > RowsとColomusを変更
+
+・列の種類の変え方
+　Tableの列の一番上を右クリック > Set Columns(s) As > 設定したい属性（X, Y, Zなど）を選択
+
+・ショートカット
+　データの読み込み：Ctrl + K （※ 新しいTableが自動で作られる）
+　グラフの表示：Ctrl + Y
+　グラフ上でTableのデータ読み込み：グラフ上で Alt + C
+　新しいTable: Ctrl + T
